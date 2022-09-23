@@ -1,60 +1,10 @@
 {
-  "user": [
-    {
-      "positionUsers": [
-        {
-          "id": 1,
-          "position": "admin"
-        },
-        {
-          "id": 2,
-          "position": "user"
-        }
-      ],
-      "status": [
-        {
-          "id": 1,
-          "status": "start"
-        },
-        {
-          "id": 2,
-          "status": "stop"
-        }
-      ],
-      "infoUsers": [
-        {
-          "id": 1,
-          "username": "admin",
-          "password": "123456",
-          "statusId": 1,
-          "positionId": 1,
-          "createdAt": 23092022
-        },
-        {
-          "id": 2,
-          "username": "phamtuan1",
-          "password": "123456",
-          "statusId": 1,
-          "positionId": 2,
-          "createdAt": 23092022
-        },
-        {
-          "id": 3,
-          "username": "phamtuan2",
-          "password": "123456",
-          "statusId": 1,
-          "positionId": 2,
-          "createdAt": 23092022
-        }
-      ]
-    }
-  ],
-  "comment":[
-    {
-      "id": 1,
-      "userId": 2,
-      "productIs": 1,
-      "content": "Món ăn thật tuyệt vời"
-    }
-  ]
+  "users":{
+    "user1": [
+      {
+        "id": 1,
+        "name": "John"
+      }
+    ]
+  }
 }
