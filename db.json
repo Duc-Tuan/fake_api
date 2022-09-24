@@ -1,24 +1,476 @@
 {
-  "categories": {
-    "categorie1": [
-      {
-        "id": 1,
-        "content": "abc1"
-      },
-      {
-        "id": 2,
-        "content": "abc1"
-      }
-    ],
-    "categorie2": [
-      {
-        "id": 1,
-        "content": "abc2"
-      },
-      {
-        "id": 2,
-        "content": "abc2"
-      }
-    ]
-  }
+  "user": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "password": 123456,
+      "position": "admin",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "userName": "anhtuan1",
+      "password": 123456,
+      "position": "user",
+      "status": 1
+    },
+    {
+      "id": 3,
+      "userName": "anhtuan2",
+      "password": 123456,
+      "position": "user",
+      "status": 1
+    }
+  ],
+  "categores": [
+    {
+      "id": 1,
+      "name": "Special",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/411ba9369dc9b5cce3f5609c712534f2107aabfe/icon/play.svg"
+    },
+    {
+      "id": 2,
+      "name": "Breakfast",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/411ba9369dc9b5cce3f5609c712534f2107aabfe/icon/play.svg"
+    },
+    {
+      "id": 3,
+      "name": "Launch",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/411ba9369dc9b5cce3f5609c712534f2107aabfe/icon/play.svg"
+    },
+    {
+      "id": 4,
+      "name": "Dinner",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/411ba9369dc9b5cce3f5609c712534f2107aabfe/icon/play.svg"
+    },
+    {
+      "id": 5,
+      "name": "Sneaks",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/411ba9369dc9b5cce3f5609c712534f2107aabfe/icon/play.svg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Special",
+      "name": "Pork Sandwich",
+      "describe": "They're wherein heaven seed hath nothing",
+      "outstanding": "no",
+      "content": "abcdc",
+      "author": "Đức Tuấn 1",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_1.png"
+    },
+    {
+      "id": 2,
+      "category": "Special",
+      "name": "Easter Delight",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 2",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_2.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 3,
+      "category": "Special",
+      "name": "Roasted Marrow",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 3",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_3.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 4,
+      "category": "Sneaks",
+      "name": "Summer Cooking",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 4",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_4.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 5,
+      "category": "Sneaks",
+      "name": "Tiener Schnitze",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 5",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_5.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 6,
+      "category": "Sneaks",
+      "name": "Chicken Roast",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 6",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_6.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 7,
+      "category": "Dinner",
+      "name": "Tiener Schnitze 1",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 7",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_5.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 8,
+      "category": "Dinner",
+      "name": "Tiener Schnitze 2",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 8",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_5.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 9,
+      "category": "Dinner",
+      "name": "Tiener Schnitze 3",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 9",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_5.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 10,
+      "category": "Launch",
+      "name": "Summer Cooking 1",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 10",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_4.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 11,
+      "category": "Launch",
+      "name": "Summer Cooking 2",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 11",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_4.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 12,
+      "category": "Launch",
+      "name": "Summer Cooking 3",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 12",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_4.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 13,
+      "category": "Breakfast",
+      "name": "Easter Delight 1",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 13",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_2.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 14,
+      "category": "Breakfast",
+      "name": "Easter Delight 2",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 14",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_2.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 15,
+      "category": "Breakfast",
+      "name": "Easter Delight 3",
+      "describe": "They're wherein heaven seed hath nothing",
+      "content": "abcdc",
+      "author": "Đức Tuấn 15",
+      "price": "40.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_menu/single_food_2.png",
+      "outstanding": "no"
+    },
+    {
+      "id": 16,
+      "name": "Indian Burger 1",
+      "category": "Breakfast",
+      "describe": "Was brean shed moveth day yielding tree yielding day were female and",
+      "content": "abcdc",
+      "author": "Đức Tuấn 16",
+      "price": "20.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_item/food_item_1.png",
+      "outstanding": "yes"
+    },
+    {
+      "id": 17,
+      "name": "Cremy Noodles",
+      "category": "Special",
+      "describe": "Was brean shed moveth day yielding tree yielding day were female and",
+      "content": "abcdc",
+      "author": "Đức Tuấn 17",
+      "price": "10.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_item/food_item_2.png",
+      "outstanding": "yes"
+    },
+    {
+      "id": 18,
+      "name": "Honey Meat",
+      "category": "Special",
+      "describe": "Was brean shed moveth day yielding tree yielding day were female and",
+      "content": "abcdc",
+      "author": "Đức Tuấn 18",
+      "price": "15.00",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_item/food_item_3.png",
+      "outstanding": "yes"
+    },
+    {
+      "id": 19,
+      "name": "Cremy Noodles 2",
+      "category": "Dinner",
+      "describe": "Was brean shed moveth day yielding tree yielding day were female and",
+      "content": "abcdc",
+      "author": "Đức Tuấn 19",
+      "price": "17.50",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/food_item/food_item_1.png",
+      "outstanding": "no"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 2,
+      "name": "Mosan Cameron",
+      "career": "Executive of fedex",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_1.png"
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": 2,
+      "name": "Mosan Cameron 2",
+      "career": "Executive of fedex 2",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_2.png"
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "userId": 2,
+      "name": "Mosan Cameron 3",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 4,
+      "productId": 2,
+      "userId": 2,
+      "name": "Mosan Cameron 4",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 5,
+      "productId": 2,
+      "userId": 3,
+      "name": "Mosan Cameron 5",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 6,
+      "productId": 3,
+      "userId": 3,
+      "name": "Mosan Cameron 6",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 7,
+      "productId": 4,
+      "userId": 3,
+      "name": "Mosan Cameron 7",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 8,
+      "productId": 4,
+      "userId": 3,
+      "name": "Mosan Cameron 8",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 9,
+      "productId": 8,
+      "userId": 3,
+      "name": "Mosan Cameron 9",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    },
+    {
+      "id": 10,
+      "productId": 8,
+      "userId": 3,
+      "name": "Mosan Cameron 10",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    }
+  ],
+  "feedback": [
+    {
+      "id": 1,
+      "userId": 2,
+      "name": "Mosan Cameron",
+      "career": "Executive of fedex",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_1.png"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "name": "Mosan Cameron 2",
+      "career": "Executive of fedex 2",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_2.png"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "name": "Mosan Cameron 3",
+      "career": "Executive of fedex 3",
+      "date": "December 4, 2017 at 3:12 pm",
+      "content": "Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/comment/comment_3.png"
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "title": "Our History",
+      "describe": "Where The Food’s As Good As The Root Beer.",
+      "suggestions": "Satisfying people hunger for simple pleasures",
+      "content": "May over was. Be signs two. Spirit. Brought said dry own firmament lesser best sixth deep abundantly bearing, him, gathering you blessed bearing he our position best ticket in month hole deep",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/about.png"
+    }
+  ],
+  "commit": [
+    {
+      "id": 1,
+      "content": "Free global shipping on all orders"
+    },
+    {
+      "id": 2,
+      "content": "30 days easy returns if you change your mind"
+    },
+    {
+      "id": 3,
+      "content": "Order before noon for same day dispatch"
+    }
+  ],
+  "country": [
+    {
+      "id": 1,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "90",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "50",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "10",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "70",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "30",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "94",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "60",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Canada",
+      "visits": "645032",
+      "percentages": "45",
+      "imgSrc": "https://raw.githubusercontent.com/Duc-Tuan/img_dingo/main/elements/f8.jpg"
+    }
+  ]
 }
