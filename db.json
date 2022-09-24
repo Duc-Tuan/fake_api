@@ -1,26 +1,24 @@
 {
-  "categories": [
-    {
-      "categorie1": [
-        {
-          "id": 1,
-          "content": "abc1"
-        },
-        {
-          "id": 2,
-          "content": "abc1"
-        }
-      ],
-      "categorie2": [
-        {
-          "id": 1,
-          "content": "abc2"
-        },
-        {
-          "id": 2,
-          "content": "abc2"
-        }
-      ]
-    }
-  ]
+  "categories": {
+    "categorie1": [
+      {
+        "id": 1,
+        "content": "abc1"
+      },
+      {
+        "id": 2,
+        "content": "abc1"
+      }
+    ],
+    "categorie2": [
+      {
+        "id": 1,
+        "content": "abc2"
+      },
+      {
+        "id": 2,
+        "content": "abc2"
+      }
+    ]
+  }
 }
